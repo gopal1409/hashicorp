@@ -71,10 +71,6 @@ variable "training_password" {
   description = "The password to attach to the user student's login as."
 }
 
-variable "public_key" {
-  description = "The contents of the SSH public key to use for connecting to the cluster."
-}
-
 variable "animals" {
   default = [
     "ant",
